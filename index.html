@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/css/style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Interactive rating component</title>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <div id="rating-card">
+          <div class="card__icon"></div>
+          <div class="card__body">
+            <h1 class="card__title">How did we do?</h1>
+            <p class="card__description">
+              Please let us know how we did with your support request. All
+              feedback is appreciated to help us improve our offering!
+            </p>
+            <ul class="rating">
+              <li id="ri-1" value="1" class="rating__input">1</li>
+              <li id="ri-2" value="2" class="rating__input">2</li>
+              <li id="ri-3" value="3" class="rating__input">3</li>
+              <li id="ri-4" value="4" class="rating__input">4</li>
+              <li id="ri-5" value="5" class="rating__input">5</li>
+            </ul>
+          </div>
+          <button class="card__submit">submit</button>
+        </div>
+        <div id="loader" class="lds-ring hide">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div id="result-card" class="hide">
+          <div class="result-card__image"></div>
+          <div class="result-card__rating-result"></div>
+          <div class="result-card__body">
+            <h2>Thank you!</h2>
+            <p>
+              We appreciate you taking the time to give a rating. If you ever
+              need more support, don’t hesitate to get in touch!
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
