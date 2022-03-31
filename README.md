@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/hub/interactive-rating-component-rJnMqkmm9)
+- Live Site URL: (https://matteoratti-ui-components.github.io/rating-component/)
 
 ## My process
 
